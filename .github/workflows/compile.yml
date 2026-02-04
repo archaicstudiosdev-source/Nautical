@@ -1,0 +1,29 @@
+name: Build MCAddon
+
+on:
+  workflow_dispatch: 
+  push:
+    branches: 
+      -main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Build MCAddon
+      id: build
+      run: |
+        TMPDIR=$(mktemp -d)
+        zip -r "$TMPDIR/Imsosick.mcaddon" BP/ RP/
+        echo "output_path=$TMPDIR/Imsosick.mcaddon" >> $GITHUB_OUTPUT
+
+    - name: Upload Artifact
+      uses: "actions/upload-artifact@v3"
+      with:
+        name: Imsosick
+        path: ${{ steps.build.outputs.output_path }}
+      
