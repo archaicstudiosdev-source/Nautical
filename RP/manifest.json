@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"bridge."
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.54"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "Nautical",
+		"description": "",
+		"min_engine_version": [
+			1,
+			21,
+			120
+		],
+		"uuid": "03c88be1-d7b3-4c0f-808c-28ff302aa21a",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "0af2adc8-2a4c-4ce5-b26c-8d4fcdef4515",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

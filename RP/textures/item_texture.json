@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "Nautical",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"cobalt_ingot": {
+			"textures": "textures/items/cobalt_ingot"
+		}
+	}
+}

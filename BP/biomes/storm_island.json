@@ -1,0 +1,42 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "nautical:storm_island"
+    },
+    "components": {
+      "minecraft:climate": {
+        "downfall": 0.1,
+        "snow_accumulation": [0.0, 0.0],
+        "temperature": 0.4
+      },
+      "minecraft:overworld_height": {
+        "noise_type": "beach"
+      },
+      "minecraft:replace_biomes": {
+        "replacements": [
+          {
+            "dimension": "minecraft:overworld",
+            "targets": ["minecraft:mushroom_island"],
+            "amount": 1,
+            "noise_frequency_scale": 25
+          }
+        ]
+      },
+      "minecraft:surface_builder": {
+        "builder": {
+          "type": "minecraft:overworld",
+          "sea_floor_depth": 7,
+          "sea_floor_material": "minecraft:gravel",
+          "foundation_material": "nautical:storm_stone",
+          "mid_material": "nautical:storm_stone",
+          "top_material": "nautical:magnetic_sand",
+          "sea_material": "minecraft:water"
+        }
+      },
+      "minecraft:tags": {
+        "tags": ["beach", "meadow", "overworld"]
+      }
+    }
+  }
+}

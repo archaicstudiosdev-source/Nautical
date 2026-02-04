@@ -1,0 +1,17 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Nautical",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"magnetic_sand": {
+			"textures": "textures/blocks/magnetic_sand"
+		},
+		"storm_stone": {
+			"textures": "textures/blocks/storm_stone"
+		},
+		"cobalt_bricks": {
+			"textures": "textures/blocks/cobalt_bricks"
+		}
+	}
+}

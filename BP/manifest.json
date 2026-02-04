@@ -1,0 +1,61 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Nautical",
+        "description": "Water",
+        "uuid": "d40f5cf2-861b-4815-847d-296ca7db92ec",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            130
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "0f755fea-33ce-47d6-a68c-6a9df53176d8",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "uuid": "c75bd061-dd71-4114-8b63-3b74e95599ab",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "0390068a-704c-42d6-8cf9-8c9753e670aa",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.3.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+        }
+    ],
+    "metadata": {
+        "product_type": "addon"
+    }
+}

@@ -1,0 +1,38 @@
+{
+   "block_sounds" : {
+      "nautical:magnetic_sand" : {
+         "events" : {
+            "ambient" : "block.sand.ambient",
+            "break" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.sand",
+               "volume" : 1.0
+            },
+            "default" : "",
+            "hit" : {
+               "pitch" : 0.50,
+               "sound" : "hit.sand",
+               "volume" : 0.230
+            },
+            "item.use.on" : {
+               "pitch" : 0.80,
+               "sound" : "use.sand"
+            },
+            "place" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.sand",
+               "volume" : 1.0
+            },
+            "power.off" : {
+               "pitch" : 0.50,
+               "sound" : "block.click"
+            },
+            "power.on" : {
+               "pitch" : 0.60,
+               "sound" : "block.click"
+            }
+         },
+         "pitch" : 1.0,
+         "volume" : 1.0
+      }
+}
