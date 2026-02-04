@@ -22,7 +22,7 @@ jobs:
         echo "output_path=$TMPDIR/Imsosick.mcaddon" >> $GITHUB_OUTPUT
 
     - name: Upload Artifact
-      uses: "actions/upload-artifact@v3"
+      uses: "actions/upload-artifact@v4"
       with:
         name: Imsosick
         path: ${{ steps.build.outputs.output_path }}
