@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nautical:cobalt_sail_boat"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["# #", "###"],
+    "key": {
+      "#": {
+        "item": "nautical:cobalt_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "nautical:cobalt_ingot"
+      }
+    ],
+    "result": {
+      "item": "nautical:cobalt_sail_boat_egg"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nautical:metallic_grate",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.6
+      },
+      "minecraft:collision_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 16, 16]
+      },
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 16, 16]
+      },
+      "minecraft:material_instances": {
+        "down": {
+          "texture": "empty",
+          "render_method": "alpha_test"
+        },
+        "up": {
+          "texture": "m_scaffolding_top",
+          "render_method": "alpha_test"
+        },
+        "north": {
+          "texture": "m_scaffolding_side",
+          "render_method": "alpha_test"
+        },
+        "south": {
+          "texture": "m_scaffolding_side",
+          "render_method": "alpha_test"
+        },
+        "east": {
+          "texture": "m_scaffolding_side",
+          "render_method": "alpha_test"
+        },
+        "west": {
+          "texture": "m_scaffolding_side",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:item_visual": {
+        "material_instances": {
+          "*": {
+            "texture": "m_scaffolding_top",
+            "render_method": "opaque"
+          }
+        },
+        "geometry": "minecraft:geometry.full_block"
+      }
+    }
+  }
+}

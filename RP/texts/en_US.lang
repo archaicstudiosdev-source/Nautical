@@ -1,0 +1,14 @@
+item.nautical:cobalt_ingot=Cobalt Ingot
+item.nautical:cobalt_ingot=Cobalt Ingot
+tile.nautical:magnetic_sand.name=Magnetic Sand
+tile.nautical:storm_stone.name=Storm Stone
+tile.nautical:cobalt_bricks.name=Cobalt Bricks
+item.nautical:electrite_spear= Electrite Spear
+item.nautical:electrite_ingot=Electrite Ingot
+item.nautical:cobalt_nugget=Cobalt Nugget
+item.nautical:anchor=Anchor
+item.nautical:cobalt_sail_boat_egg=Cobalt Boat
+entity.cobalt_sail_boat.name=Cobalt Sail Boat
+action.hint.exit.nautical:cobalt_sail_boat=Press SPACE or SHIFT to exit
+tile.nautical:metallic_grate.name=Metallic Grate
+tile.nautical:cobalt_pillar.name=Cobalt Pillar

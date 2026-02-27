@@ -1,0 +1,57 @@
+{
+    "format_version": "1.21.90",
+    "minecraft:block": {
+        "description": {
+            "identifier": "nautical:cobalt_pillar",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "cobalt_pillar_vert"
+                },
+                "down": {
+                    "texture": "cobalt_pillar_vert"
+                },
+                "north": {
+                    "texture": "cobalt_pillar_side"
+                },
+                "south": {
+                    "texture": "cobalt_pillar_side"
+                },
+                "east": {
+                    "texture": "cobalt_pillar_side"
+                },
+                "west": {
+                    "texture": "cobalt_pillar_side"
+                }
+            },
+            "minecraft:item_visual": {
+                "material_instances": {
+                    "up": {
+                        "texture": "cobalt_pillar_vert"
+                    },
+                    "down": {
+                        "texture": "cobalt_pillar_vert"
+                    },
+                    "north": {
+                        "texture": "cobalt_pillar_side"
+                    },
+                    "south": {
+                        "texture": "cobalt_pillar_side"
+                    },
+                    "east": {
+                        "texture": "cobalt_pillar_side"
+                    },
+                    "west": {
+                        "texture": "cobalt_pillar_side"
+                    }
+                },
+                "geometry": "minecraft:geometry.full_block"
+            }
+        }
+    }
+}

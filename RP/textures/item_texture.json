@@ -1,0 +1,24 @@
+{
+	"resource_pack_name": "Nautical",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"cobalt_ingot": {
+			"textures": "textures/items/cobalt_ingot"
+		},
+		"electrite_spear": {
+			"textures": "textures/items/electrite_spear"
+		},
+		"nautical_electrite_ingot": {
+			"textures": "textures/items/electrite_ingot"
+		},
+		"nautical_cobalt_nugget": {
+			"textures": "textures/items/1000379959"
+		},
+		"nautical_anchor": {
+			"textures": "textures/items/1000380075"
+		},
+		"nautical_cobalt_sail_boat_egg": {
+			"textures": "textures/items/cobalt_b_spawnegg"
+		}
+	}
+}

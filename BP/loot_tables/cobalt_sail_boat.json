@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "name": "nautical:cobalt_sail_boat_egg",
+                    "type": "item",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

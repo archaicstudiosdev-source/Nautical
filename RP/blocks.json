@@ -1,0 +1,19 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"nautical:magnetic_sand": {
+		"sound": "sand",
+		"textures": "magnetic_sand"
+	},
+	"nautical:storm_stone": {
+		"sound": "stone",
+		"textures": "storm_stone"
+	},
+	"nautical:cobalt_bricks": {
+		"sound": "stone",
+		"textures": "cobalt_bricks"
+	}
+}

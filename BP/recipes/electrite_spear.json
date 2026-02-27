@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nautical:electrite_spear"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"  #",
+			" S ",
+			"S  "
+		],
+		"key": {
+			"#": {
+				"item": "nautical:electrite_ingot"
+			},
+			"S": {
+				"item": "stick"
+			}
+		},
+		"unlock": [
+			{
+				"item": "nautical:electrite_ingot"
+			}
+		],
+		"result": {
+			"item": "nautical:electrite_spear",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nautical:cobalt_sail_boat_egg",
+      "menu_category": {
+        "category": "items",
+        "group": "minecraft:itemGroup.name.boat"
+      }
+    },
+    "components": {
+      "minecraft:icon": "nautical_cobalt_sail_boat_egg",
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": 0,
+        "can_always_eat": true
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 999
+      }
+    }
+  }
+}
