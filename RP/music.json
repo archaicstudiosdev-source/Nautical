@@ -1,0 +1,7 @@
+{
+    "custom_track": {
+        "category": "music",
+        "sounds": ["music.sealed_vessel_CL"],
+        "loop": true
+    }
+}
