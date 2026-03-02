@@ -18,8 +18,8 @@ jobs:
       id: build
       run: |
         TMPDIR=$(mktemp -d)
-        zip -r "$TMPDIR/Imsosick.mcaddon" BP/ RP/
-        echo "output_path=$TMPDIR/Imsosick.mcaddon" >> $GITHUB_OUTPUT
+        zip -r "$TMPDIR/Nautical.mcaddon" BP/ RP/
+        echo "output_path=$TMPDIR/Nautical.mcaddon" >> $GITHUB_OUTPUT
     - name: Upload Artifact
       uses: "actions/upload-artifact@v4"
       with:
